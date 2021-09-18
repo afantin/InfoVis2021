@@ -1,0 +1,6 @@
+visual encoding
+percepcion gráfica
+tem-and-leaf plot
+horizon graph
+box-and-whisker plot
+flow map
