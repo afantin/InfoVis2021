@@ -6,14 +6,18 @@
   <title>MoM-week37</title>
 </head>
 <body>
-<div id="observablehq-chart-64584cdc"></div>
-<p>Credit: <a href="https://observablehq.com/@afantin/momw37">MoM Week 37 by PABLO ANDRÉS FANTIN</a></p>
+<div id="observablehq-chart1-d614b170"></div>
+<div id="observablehq-referencias-d614b170"></div>
+<div id="observablehq-barras-d614b170"></div>
+<p>Credit: <a href="https://observablehq.com/@aaizemberg/mom37">mom 2021 weeek 37 by Ariel Aizemberg</a></p>
 
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/d/3a4a70a865fe81aa.js?v=3";
+import define from "https://api.observablehq.com/@aaizemberg/mom37.js?v=3";
 new Runtime().module(define, name => {
-  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-64584cdc"));
+  if (name === "chart1") return new Inspector(document.querySelector("#observablehq-chart1-d614b170"));
+  if (name === "referencias") return new Inspector(document.querySelector("#observablehq-referencias-d614b170"));
+  if (name === "barras") return new Inspector(document.querySelector("#observablehq-barras-d614b170"));
 });
 </script>
 </body>
