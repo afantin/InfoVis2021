@@ -6,13 +6,16 @@
   <title>Mom - Week 38</title>
 </head>
 <body>
-<div id="observablehq-33c5adc6"></div>
+<div id="observablehq-g1-7da60f1a"></div>
 <p>Credit: <a href="https://observablehq.com/@afantin/mom-w38">Mom - Week #38 by PABLO ANDRÉS FANTIN</a></p>
 
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 import define from "https://api.observablehq.com/d/d5d81785abd84365.js?v=3";
-new Runtime().module(define, Inspector.into("#observablehq-33c5adc6"));
+new Runtime().module(define, name => {
+  if (name === "g1") return new Inspector(document.querySelector("#observablehq-g1-7da60f1a"));
+});
+</script>
 </script>
 </body>
 </html>
