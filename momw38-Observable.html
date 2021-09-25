@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MoM-week37</title>
+</head>
+<body>
+<div id="observablehq-embed-1bf13b1f"></div>
+<p>Credit: <a href="https://observablehq.com/@afantin/mom-w38">Mom - Week #38 by PABLO ANDRÉS FANTIN</a></p>
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/d/d5d81785abd84365.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "embed") return new Inspector(document.querySelector("#observablehq-embed-1bf13b1f"));
+});
+</script>
+</body>
+</html>
